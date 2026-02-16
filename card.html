@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Иван Петров | Фотограф</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Подключение Google Fonts для красивого шрифта -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome для иконок (версия 6 бесплатная) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- ШАПКА (ХЕДЕР) -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">Иван Петров</div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#about">Обо мне</a></li>
+                    <li><a href="#portfolio">Портфолио</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ГЛАВНЫЙ ЭКРАН (Hero) -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Иван Петров</h1>
+            <p>Профессиональный фотограф. Снимаю эмоции, людей и важные моменты вашей жизни.</p>
+            <a href="#contact" class="btn">Связаться со мной</a>
+        </div>
+    </section>
+
+    <!-- СЕКЦИЯ "ОБО МНЕ" -->
+    <section id="about" class="about">
+        <div class="container about-container">
+            <div class="about-image">
+                <!-- Вставьте ссылку на ваше фото или замените src -->
+                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=400&q=80" alt="Иван Петров">
+            </div>
+            <div class="about-text">
+                <h2>Привет, я Иван</h2>
+                <p>Занимаюсь фотографией более 7 лет. Для меня фотография — это способ остановить прекрасное мгновение и передать историю через кадр. Работаю как в студии, так и на выезде.</p>
+                <p>Мой подход — минимальное вмешательство и максимум естественности. Я помогу вам чувствовать себя комфортно перед камерой, чтобы снимки получились живыми и настоящими.</p>
+                <p><i class="fas fa-map-marker-alt"></i> Москва, Россия</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- СЕКЦИЯ "ПОРТФОЛИО" -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Портфолио</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Портрет">
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Свадьба">
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Love story">
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1504270997636-07ddfbd48945?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Предметная съемка">
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Репортаж">
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Семья">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- СЕКЦИЯ "УСЛУГИ" -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Услуги и цены</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-camera service-icon"></i>
+                    <h3>Портретная съемка</h3>
+                    <p>Индивидуальная фотосессия в студии или на улице. Помощь в позировании, обработка 15 фото.</p>
+                    <p class="price">5 000 ₽ / час</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-heart service-icon"></i>
+                    <h3>Love Story / Свадьба</h3>
+                    <p>Романтическая прогулка или полное свадебное сопровождение (до 6 часов).</p>
+                    <p class="price">от 15 000 ₽</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-bolt service-icon"></i>
+                    <h3>Репортаж</h3>
+                    <p>Съемка мероприятий, корпоративов, дней рождений. Ни один важный момент не ускользнет.</p>
+                    <p class="price">8 000 ₽ / час</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- СЕКЦИЯ "КОНТАКТЫ" -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Свяжитесь со мной</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Контакты</h3>
+                    <p><i class="fas fa-phone-alt"></i> +7 (999) 123-45-67</p>
+                    <p><i class="fas fa-envelope"></i> ivan.photo@email.com</p>
+                    <p><i class="fas fa-clock"></i> Пн-Пт: 10:00 - 20:00</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" action="#" method="post">
+                    <h3>Напишите мне</h3>
+                    <input type="text" placeholder="Ваше имя" required>
+                    <input type="email" placeholder="Ваш Email" required>
+                    <textarea placeholder="Ваше сообщение" rows="5" required></textarea>
+                    <button type="submit" class="btn">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ПОДВАЛ (ФУТЕР) -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2023 Иван Петров. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
